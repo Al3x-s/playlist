@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Playlist Project!</title>
+    <!-- Your CSS -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="nav_container">
+      <h1>
+        My Favorite Music!
+      </h1>
+      <nav class="top_nav">
+        <input class="song_name" placeholder=" Song Name" />
+        <input class="artist_name" placeholder=" Artist Name" />
+        <input class="song_length" placeholder=" Song Length" />
+        <input class="Image_address" placeholder=" Image Address" />
+        <input class="video_link" placeholder=" Video URL" />
+        <button class="enter_info">
+          Enter
+        </button>
+      </nav>
+    </div>
+    <nav class="infoBar"></nav>
+    <div class="displayArea">
+      <div class="column" id="image">
+      </div>
+      <div class="column" id="Aname">
+      </div>
+      <div class="column" id="Sname">
+      </div>
+      <div class="column" id="Slength">
+      </div>
+      <div class="column" id="URL">
+      </div>
+<!--      <div class="column" id="vid-button">
+      </div> -->
+    </div>
+    <iframe class="siveo" id="myIFrame" width="660" height="415" src="https://www.youtube.com/embed/CPK_IdHe1Yg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <!-- Your Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
