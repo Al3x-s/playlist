@@ -21,10 +21,7 @@ body {
     background-position: 0% 50%;
   }
 }
-.nav_container{
-  position:sticky;
-  top:0;
-}
+
 .top_nav {
   display: flex;
   justify-content: space-evenly;
